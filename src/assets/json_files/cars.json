@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "carType": "BMW",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 2,
+        "carType": "AUDI",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 3,
+        "carType": "MERCEDES",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 4,
+        "carType": "SAAB",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 5,
+        "carType": "NISSAN",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 6,
+        "carType": "TESLA",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 7,
+        "carType": "MINI",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    },
+    {
+        "id": 8,
+        "carType": "MAZDA",
+        "plateNumber": "AA-111-BB",
+        "pricePerHour": 110.00
+    }
+]

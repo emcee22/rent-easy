@@ -1,0 +1,183 @@
+.browse {
+    border: .5px solid black;
+    height: 100%;
+    max-width: 700px;
+    overflow: hidden;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.browse__cars {
+    width: 200px;
+    border-right: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    overflow: hidden;
+}
+
+.browse__cars__header,
+.browse__reservations__header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+.browse__cars__header h4 {
+    line-height: 50px;
+}
+
+.browse__cars__header h4,
+.browse__reservations__header h4 {
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.browse__cars__list {
+    overflow-x: hidden;
+    height: calc(100% - 52px);
+    width: calc(100% + 17px);
+}
+
+.browse__cars__list p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.browse__reservations__content ul,
+.browse__cars__list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.browse__cars__list ul > li:nth-child(odd) {
+    background-color: #96bad2;
+}
+
+.browse__cars__list > ul > li {
+    border-bottom: 1px solid #000;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.browse__cars__list > ul > li > p {
+    padding-top: 10px;
+}
+
+.browse__reservations {
+    max-width: 100%;
+    width: calc(100% - 201px);
+    display: inline-block;
+    height: 100%;
+}
+
+.browse__reservations__header {
+    text-align: left;
+    position: relative;
+}
+
+.browse__reservations__header h4 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.browse__reservations__header h4,
+.browse__reservations__header a,
+.browse__reservations__header ul {
+    line-height: 25px;
+}
+
+.browse__reservations__header ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.browse__reservations__header a,
+.browse__reservations__header ul li {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.browse__reservations__header ul li {
+    border-right: 1px solid black;
+}
+
+.browse__reservations__header ul li:nth-child(odd) {
+    background-color: grey;
+}
+
+.browse__reservations__header__navigation {
+    position: absolute;
+    bottom: 0;
+    background-color: #ff9999;
+    color: black;
+}
+
+.browse__reservations__header__navigation--left {
+    left: 0;
+}
+
+.browse__reservations__header__navigation--right {
+    right: 0;
+}
+
+.browse__reservations__header__day-navigator {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.browse__reservations__content {
+    overflow-x: hidden;
+    height: calc(100% - 52px);
+    width: calc(100% + 17px);
+}
+
+.browse__reservations__content li {
+    display: inline-block;
+}
+
+.browse__reservations__content__item {
+    height: 61px;
+    position: relative;
+}
+
+.browse__reservations__content__item ul {
+    white-space: nowrap;
+    height: 100%;
+}
+
+.browse__reservations__content__item li {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.browse__reservations__content__item li:nth-child(even) {
+    background-color: #96bad2;
+    border-bottom: 1px solid black;
+    height: calc(100% - 1px);
+}
+
+.browse__reservations__content__item li:nth-child(odd) {
+    background-color: grey;
+    height: 100%;
+}
+
+:host ::ng-deep .browse__reservations__content__item__rez {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: rgb(10, 78, 126);
+    color: #fff;
+    padding: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
